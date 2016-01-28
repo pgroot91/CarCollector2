@@ -1,0 +1,163 @@
+html {
+    font-family: Arial,Helvetica,Sans,Sans-Serif,"Sans Serif";
+    font-size: 100%;
+    line-height: 1.25;
+    color: #000;
+}
+
+a:link, a:visited {
+    color: #000;
+}
+
+body {
+    font-size: 12px;
+    color: #444;
+    margin: 0;
+}
+
+main#main {
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    width: 700px;
+    float: left;
+}
+
+article.car {
+    height: 126px;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid #888;
+    background-color: #fff;
+}
+
+div.car-image{
+    position: relative;
+    float: left;
+    width: 182px;
+    height: 126px;
+    overflow: visible;
+    border-right: 0;
+    margin-right: 9px;
+}
+
+img.car-image {
+    width: 182px;
+    height: 126px;
+    position: static;
+    transform: translate(0,0);
+}
+
+div.car-details {
+    width: 503px;
+    height: 126px;
+    position: relative;
+    float: left;
+    padding-left: 0;
+    border-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+h3.title {
+    font-size: 18px;
+    height: 20px;
+    line-height: 20px;
+    cursor: pointer;
+    border-top: 1px solid #e6e6e6;
+    width: 483px;
+    text-indent: 10px;
+    margin: 0 0 0 -9px;
+    padding-left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+div.price {
+    position: absolute;
+    bottom: 0;
+    width: 134px;
+    height: 20px;
+    padding-top: 3px;
+    right: 0;
+    float: right;
+    text-align: right;
+}
+
+input.search {
+    border: 0;
+    height: 41px;
+    font-size: 21px;
+    padding: 0 0 0 7px;
+    border-radius: 2px;
+    width: 100%;
+}
+
+input.search-button {
+    min-width: 134px;
+    border-radius: 2px;
+    border: 0;
+    display: block;
+    height: 100%;
+    padding: 0;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #007fad;
+    color: #fff;
+    cursor: pointer;
+}
+
+input.filter-button {
+    min-width: 134px;
+    border-radius: 2px;
+    border: 0;
+    display: block;
+    height: 100%;
+    padding: 0;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #007fad;
+    color: #fff;
+    cursor: pointer;
+}
+
+div.search {
+    margin-top: 0;
+    height: 41px;
+    max-width: 675px;
+    display: table;
+    width: 100%;
+}
+
+div.first-search-row {
+    display: table-cell;
+    padding-left: 9px;
+    width: 100%;
+    vertical-align: middle;
+}
+
+form.search {
+    width: 614px;
+    margin: 0 auto;
+    padding: 13px 0;
+}
+
+header#header {
+    background: #37454d;
+    margin: 0 auto;
+}
+
+aside#filter {
+    border: solid 1px #cdd0d2;
+    display: block;
+    width: 250px;
+    float: left;
+}
+
+div#main-content {
+    max-width: 1200px;
+    margin-top: 30px;
+    margin: 0 auto;
+}
